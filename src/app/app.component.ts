@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'products-app';
+
+  public toggle: boolean = true;
+
+  onChangeClass(): void{
+    this.toggle = !this.toggle
+  }
 }
