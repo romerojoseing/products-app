@@ -1,24 +1,4 @@
-<!------------------ Navbar ------------------>
-<nav class="navbar fixed-top  shadow-sm navbar-expand-lg navbar-light bg-white">
-  <a class="navbar-brand ml-4 font-weight-bold" href="#">iAgri<span class="text-green">Net</span></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav ml-auto mt-2 mt-lg-0 text-center">
-      <li class="nav-item">
-        <a class="nav-link " href="#"><i class="far fa-comment-dots icon d-block"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link d-block active m-2" href="#">Diego Estrada</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link d-block" href="#"><img src="./assets/images/user.jpg" height="40" alt="photo" class="rounded-circle"></a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<navbar-app></navbar-app>
 
 
 <!------------------ Content ------------------>
@@ -30,138 +10,16 @@
       <button (click)="onChangeClass()" class="btn btn-link" type="button"><i class="fas fa-th-large toggle-icon"></i></button>
     </div>
 
-    <!------------------ Sidebar - List ------------------>
-    <div class="list-sidebar">
-      <div class="media m-3 mt-5">
-        <img src="./assets/images/favicon.png" class="align-self-center mr-3" height="65">
-        <div class="media-body mt-3">
-          <h5 class="media-title">AgroPacifico</h5>
-          <p class="media-description">Agricola del Pacífico S.A <br> de C.V</p>
-        </div>
-      </div>
-      <ul class="list-sidebar">
-        <li class="active">
-          <a href="#" class="items"><i class="fas fa-pen icon-left"></i> Captura <i
-              class="fas fa-chevron-down icon-right"></i></a>
-        </li>
-        <li class="active">
-          <a href="#">Especialistas</a>
-        </li>
-        <li>
-          <a href="#">Presas</a>
-        </li>
-        <li>
-          <a href="#">Futuros</a>
-        </li>
-        <li>
-          <a href="#">Base futuro</a>
-        </li>
-        <li>
-          <a href="#">Oferta y demanda</a>
-        </li>
-        <li>
-          <a href="#">Granos</a>
-        </li>
-        <li>
-          <a href="#">Precio Base</a>
-        </li>
-        <li>
-          <a class="list-generate items" href="#"><i class="far fa-file-alt icon-left text-green"></i>Generar
-            Reportes</a>
-        </li>
-      </ul>
-    </div>
+    <sidebar-app></sidebar-app>
+
   </section>
 
   <!------------------ Page Content ------------------>
   <section class="container p-4 p-md-5 pt-5">
-    <div class="wrapper">
-      <h1 class="mb-4">Reportes de Productos de cadenas productivas</h1>
-
-      <div class="btn-group">
-        <button class="btn btn-light btn-sm dropdown-toggle text-secondary" type="button" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          Todos los años
-        </button>
-      </div>
-      <div class="btn-group">
-        <button class="btn btn-light btn-sm dropdown-toggle text-secondary" type="button" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          Todos los meses
-        </button>
-      </div>
-      <div class="btn-group">
-        <button class="btn btn-light btn-sm dropdown-toggle text-secondary" type="button" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          Todos los productos
-        </button>
-      </div>
-    </div>
-
-    <!------------------ Table ------------------>
-    <div class="container">
-      <div class="table-responsive">
-        <table class="table table-borderless table-hover">
-          <thead>
-            <tr class="d-flex border border-top">
-              <th class="col-lg-3 pl-5 pt-4 pb-4">Producto</th>
-              <th class="col-lg-7 pt-4 pb-4">Mes y año</th>
-              <th class="col-lg-2 pt-4 pb-4"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="d-flex border border-none">
-              <td class="col-lg-3 pl-5"> <img src="./assets/images/favicon.png" class="align-self-center mr-3"
-                  height="65">Tomate</td>
-              <td class="col-lg-7">Agosto 2020</td>
-              <td class="col-lg-2"><i class="icons fas fa-redo"></i><i class="icons fas fa-arrow-down"></i></td>
-            </tr>
-            <tr class="d-flex border border-none">
-              <td class="col-lg-3 pl-5"> <img src="./assets/images/favicon.png" class="align-self-center mr-3" height="65">Maíz
-              </td>
-              <td class="col-lg-7">Agosto 2020</td>
-              <td class="col-lg-2"><i class="icons fas fa-redo"></i><i class="icons fas fa-arrow-down"></i></td>
-            </tr>
-            <tr class="d-flex border border-none">
-              <td class="col-lg-3 pl-5"> <img src="./assets/images/favicon.png" class="align-self-center mr-3"
-                  height="65">Frijol</td>
-              <td class="col-lg-7">Agosto 2020</td>
-              <td class="col-lg-2"><i class="icons fas fa-redo"></i><i class="icons fas fa-arrow-down"></i></td>
-            </tr>
-            <tr class="d-flex border border-none">
-              <td class="col-lg-3 pl-5"> <img src="./assets/images/favicon.png" class="align-self-center mr-3" height="65">Arroz
-              </td>
-              <td class="col-lg-7">Agosto 2020</td>
-              <td class="col-lg-2"><i class="icons fas fa-redo"></i><i class="icons fas fa-arrow-down"></i></td>
-            </tr>
-            <tr class="d-flex border border-none">
-              <td class="col-lg-3 pl-5"> <img src="./assets/images/favicon.png" class="align-self-center mr-3"
-                  height="65">Tomate</td>
-              <td class="col-lg-7">Agosto 2020</td>
-              <td class="col-lg-2"><i class="icons fas fa-redo"></i><i class="icons fas fa-arrow-down"></i></td>
-            </tr>
-            <tr class="d-flex border border-none">
-              <td class="col-lg-3 pl-5"> <img src="./assets/images/favicon.png" class="align-self-center mr-3" height="65">Maíz
-              </td>
-              <td class="col-lg-7">Agosto 2020</td>
-              <td class="col-lg-2"><i class="icons fas fa-redo"></i><i class="icons fas fa-arrow-down"></i></td>
-            </tr>
-            <tr class="d-flex border border-none">
-              <td class="col-lg-3 pl-5"> <img src="./assets/images/favicon.png" class="align-self-center mr-3"
-                  height="65">Frijol</td>
-              <td class="col-lg-7">Agosto 2020</td>
-              <td class="col-lg-2"><i class="icons fas fa-redo"></i><i class="icons fas fa-arrow-down"></i></td>
-            </tr>
-            <tr class="d-flex border border-none">
-              <td class="col-lg-3 pl-5"> <img src="./assets/images/favicon.png" class="align-self-center mr-3" height="65">Arroz
-              </td>
-              <td class="col-lg-7">Agosto 2020</td>
-              <td class="col-lg-2"><i class="icons fas fa-redo"></i><i class="icons fas fa-arrow-down"></i></td>
-            </tr>
-
-          </tbody>
-        </table>
-      </div>
-    </div>
+    
+    <content-app></content-app>
+    
+    <table-app></table-app>
+    
   </section>
 </div>

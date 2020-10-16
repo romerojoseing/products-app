@@ -13,4 +13,5 @@ export class AppComponent {
   onChangeClass(): void{
     this.toggle = !this.toggle
   }
+
 }
