@@ -1,0 +1,300 @@
+/*--------------------------------------------------------------
+# Font
+--------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+
+:root{
+--white: hsl(0, 0%, 100%);
+--cyan: #18d4ce;
+--red: #ed2651;
+--cyanDark: #4db5b1;
+--redDark: #c72347;
+--title: #3d3d3d;
+--text: #4f4f4f;
+}
+
+
+
+/*--------------------------------------------------------------
+# General Styles
+--------------------------------------------------------------*/
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: var(--cyan) !important;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+img {
+  border-style: none;
+}
+
+
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
+.text-green{
+  color: var(--cyanDark);
+}
+
+.icon{
+    font-size: 1.7em;
+    color: #32373d;
+    height: 40px;
+    margin-top: 6px;
+  }
+
+.nav-link{
+  color: black;
+  font-weight: 600;
+  height: 40px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Sidebar
+--------------------------------------------------------------*/
+.toggle {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  margin-right: -60px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; 
+}
+
+.toggle-icon{
+  font-size: 1em;
+  color: #32373d;
+  margin: 0 auto;
+}
+
+.toggle-icon:hover{
+  color: var(--cyan);
+}
+
+#sidebar {
+  min-width: 285px;
+  max-width: 285px;
+  background: #2b2b2b;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative; 
+}
+
+  #sidebar.active {
+    margin-left: -285px; 
+  }
+    
+  #sidebar.active .toggle {
+    margin-right: -50px; 
+  }
+
+  .media-title{
+    font-weight: 600;
+    font-size: 1em;
+    color: var(--white);
+    margin-bottom: 5px;
+  }
+
+  .media-description{
+    font-size: .7em;
+    font-weight: 400;
+    color:#c0c0c0;
+    letter-spacing: .5px;
+  }
+
+
+  #sidebar ul.list-sidebar {
+    width: 285px;
+    margin-top: 30px;
+  }
+
+  #sidebar ul li a {
+    font-size: 1em;
+    font-weight: 400;
+    display: block;
+    color: #a0a0a0;
+    text-decoration: none;
+    padding-left: 60px;
+    margin-bottom: 22px;
+  }
+
+  .list-generate{
+    background-color:#3f3f3f;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  #sidebar ul li a.items{
+    padding-left: 25px;
+  }
+
+  .icon-left{
+   margin-right: 15px;
+  }
+
+  .icon-right{
+    margin-left: 120px;
+  }
+
+  
+   
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+
+.wrapper{
+  padding: 20px;
+}
+
+h1{
+  font-size: 1.7em;
+  font-weight: 800;
+  max-width: 500px;
+  line-height: 1.4em;
+}
+
+.btn-light{
+  border-radius: 50px;
+  padding: 0 10px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.border-top{
+  border-radius: 20px 20px 0px 0px;
+}
+
+.border-none{
+  border-top: none !important;
+}
+
+td{
+  display: flex;
+  align-items: center;
+}
+
+.icons{
+  padding-left: 30px;
+  cursor: pointer;
+  color: #777777;
+}
+
+.icons:hover{
+  color: var(--cyan);
+}
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /*  */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  /*  */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  /*  */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  /*  */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  #sidebar{
+    margin-left: -285px; 
+  }
+
+  #sidebar.active {
+    margin-left: 0; 
+  }
+
+  #sidebar .toggle {
+    margin-right: -70px;
+    top: 20px; 
+  }
+
+  .navbar-collapse{
+    margin-bottom: 50px;
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+# Scroll
+--------------------------------------------------------------*/
+
+/* Tamaño del scroll */
+.body-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+ /* Estilos barra (thumb) de scroll */
+.body-scrollbar::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.body-scrollbar::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.body-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* Estilos track de scroll */
+.body-scrollbar::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+.body-scrollbar::-webkit-scrollbar-track:hover, 
+.body-scrollbar::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
