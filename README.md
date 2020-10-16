@@ -2,8 +2,7 @@
 
 _This is a challenge from testing, specialized in frontend develop, is a list of products and sidebar develop with Angular 10._
 
-## [Try the live demo](https://romerojoseing.github.io/social-dashboard/) ⚡
-![Thumbnail](https://github.com/romerojoseing/social-dashboard/blob/master/design/desktop-preview.jpg?raw=true)
+![Thumbnail](https://github.com/romerojoseing/products-app/blob/main/src/assets/images/capture.png?raw=true)
 
 <br>
 
