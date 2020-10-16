@@ -1,27 +1,75 @@
-# ProductsApp
+# Testing: List of products and sidebar
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+_This is a challenge from testing, specialized in frontend develop, is a list of products and sidebar develop with Angular 10._
 
-## Development server
+## [Try the live demo](https://romerojoseing.github.io/social-dashboard/) ⚡
+![Thumbnail](https://github.com/romerojoseing/social-dashboard/blob/master/design/desktop-preview.jpg?raw=true)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<br>
 
-## Code scaffolding
+## Getting Started 🚀
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system._
 
-## Build
+See **Requirements** to know the minimum standards to use the project.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Requirements 📋
 
-## Running unit tests
+_You need to have the following technologies installed to use this project._
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Any browser to open the project.
 
-## Running end-to-end tests
+* [Google Chrome](https://www.google.com/intl/es/chrome/)
+* [Node.js - npm](https://nodejs.org/es/) - *JavaScript runtime*
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+### Installing 🔧
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+_To use this project you will need to clone this repository or download it to your computer. If you choose to download it directly in the upper right part of the repository you will have the option, if it is not your case you can clone it using the following command._
+
+```ssh
+  $ git clone https://github.com/romerojoseing/products-app.git
+```
+
+<br>
+
+## Use Project 👓
+
+_Follow this steps to run the project, install dependencies necessaries._
+
+```ssh
+  $ npm install
+```
+
+```ssh
+  $ ng serve
+```
+
+
+<br>
+
+## Built With 🛠️
+
+_Technologies used in the project:_
+
+* [HTML 5](https://es.wikipedia.org/wiki/HTML) - Layout and web structure.
+* [CSS 3](https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada) - Style design.
+* [JavaScript](https://es.wikipedia.org/wiki/JavaScript) - Animations and functionalities.
+* [Angular 10](https://angular.io//) - javascript framework.
+
+<br>
+
+## Author ✒️
+
+_If you like what I do, visit my website and share my content, you can also follow me on my networks to be aware of new publications and interesting projects that I will be developing._
+
+Designed with 💖 - by [Romero José](https://romerojose.com/)
+
+### Social networks
+
+* **GitHub** - *Repositories of my latest projects* - [romerojoseing](https://github.com/romerojoseing)
+* **CodePen** - *Interesting mini projects and tests* - [romerojoseing](https://codepen.io/romerojoseing)
+* **LinkedIn** - *Professional developer profile* - [romerojoseing](https://www.linkedin.com/in/romerojoseing/)
+* **Instagram** - *Documenting my journey* - [romerojoseing](https://www.instagram.com/romerojoseing/)
+* **Facebook** - *Publications and promotional content* - [romerojoseing](https://www.facebook.com/romerojoseing)
+* **Twitter** - *Random comments and more* - [romerojoseing](https://twitter.com/romerojoseing)
