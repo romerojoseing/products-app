@@ -2,6 +2,7 @@
 
 _This is a challenge from testing, specialized in frontend develop, is a list of products and sidebar develop with Angular 10._
 
+## [Try the live demo](https://romerojoseing.github.io/products-app/) ⚡
 ![Thumbnail](https://github.com/romerojoseing/products-app/blob/main/src/assets/images/capture.png?raw=true)
 
 <br>
