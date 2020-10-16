@@ -86,15 +86,15 @@ img {
   position: absolute;
   top: 70px;
   right: 0;
-  margin-right: -60px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s; 
+  margin-right: -40px;
+  transition: .3s;
+  background: #2b2b2b;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .toggle-icon{
   font-size: 1em;
-  color: #32373d;
+  color: white;
   margin: 0 auto;
 }
 
@@ -118,7 +118,7 @@ img {
   }
     
   #sidebar.active .toggle {
-    margin-right: -50px; 
+    margin-right: -40px; 
   }
 
   .img-logo{
@@ -229,26 +229,6 @@ td{
 # Media Queries
 --------------------------------------------------------------*/
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  /*  */
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-  /*  */
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-  /*  */
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-  /*  */
-}
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
   #sidebar{
@@ -260,10 +240,18 @@ td{
   }
 
   #sidebar .toggle {
-    margin-right: -70px;
-    top: 30px; 
+    margin-right: -40px;
+    top: 60px; 
   }
 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  #sidebar .toggle {
+    margin-right: -40px;
+    top: 30px; 
+  }
 }
 
 
