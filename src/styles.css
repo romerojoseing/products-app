@@ -121,6 +121,12 @@ img {
     margin-right: -50px; 
   }
 
+  .img-logo{
+    border: 1px solid #4d4d4d;
+    padding: 15px;
+    border-radius: 20px;
+  }
+
   .media-title{
     font-weight: 600;
     font-size: 1em;
